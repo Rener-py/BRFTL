@@ -5,6 +5,8 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.Mixin;
 
+import net.rener.brftl.init.BrftlModItems;
+
 import net.minecraft.world.item.crafting.RepairItemRecipe;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.CraftingContainer;
@@ -26,6 +28,9 @@ public abstract class BrftlModRepairItemRecipeMixin {
 			if (itemStack.isEmpty())
 				continue;
 			list.add(itemStack);
+		}
+		if ((itemStack3 = (ItemStack) list.get(0)).is((BrftlModItems.EDGERCREASERITEM))) {
+			cir.setReturnValue(ItemStack.EMPTY);
 		}
 	}
 }
