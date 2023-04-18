@@ -69,14 +69,54 @@
           "src/main/resources/data/brftl/recipes/leather_from_tanned_skin_campfire.json"
         ]
       }
+    },
+    {
+      "name": "TannedSkinAdvan",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tanned_skin_advan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/brftl/advancements/tanned_skin_advan.json"
+        ]
+      }
+    },
+    {
+      "name": "Edgecreaserrecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "edgecreaserrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/brftl/recipes/edgecreaserrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Leathertanningtablerecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leathertanningtablerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/brftl/recipes/leathertanningtablerecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "advancements.tanned_skin_advan.title": "Furrier!",
       "item.brftl.edgercreaseritem": "Edger Creaser",
       "block.brftl.leather_tanning_tablebl": "Leather Tanning Table",
+      "advancements.tanned_skin_advan.descr": "You improve your knowledge with leatherworking",
       "item.brftl.tannedskinobj": "Tanned skin"
     }
   },

@@ -8,7 +8,7 @@ import net.minecraft.world.item.CreativeModeTab;
 
 public class EdgercreaseritemItem extends Item {
 	public EdgercreaseritemItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).durability(32).rarity(Rarity.COMMON));
 	}
 
 	@Override
@@ -18,7 +18,12 @@ public class EdgercreaseritemItem extends Item {
 
 	@Override
 	public ItemStack getRecipeRemainder(ItemStack itemstack) {
-		return new ItemStack(this);
+		ItemStack retval = new ItemStack(this);
+		retval.setDamageValue(itemstack.getDamageValue() + 1);
+		if (retval.getDamageValue() >= retval.getMaxDamage()) {
+			return ItemStack.EMPTY;
+		}
+		return retval;
 	}
 
 	@Override

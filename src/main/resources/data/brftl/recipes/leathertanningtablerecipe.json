@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:oak_planks"
+    },
+    "1": {
+      "item": "minecraft:oak_planks"
+    },
+    "2": {
+      "item": "minecraft:oak_planks"
+    },
+    "3": {
+      "item": "brftl:edgercreaseritem"
+    },
+    "4": {
+      "item": "brftl:tannedskinobj"
+    },
+    "5": {
+      "item": "minecraft:oak_planks"
+    },
+    "6": {
+      "item": "minecraft:oak_planks"
+    },
+    "7": {
+      "item": "minecraft:oak_planks"
+    },
+    "8": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "item": "brftl:leather_tanning_tablebl",
+    "count": 1
+  }
+}
