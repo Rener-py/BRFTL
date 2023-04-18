@@ -1,0 +1,51 @@
+{
+  "mod_elements": [
+    {
+      "name": "LeatherTanningTablebl",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_tanning_tablebl",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/brftl/blockstates/leather_tanning_tablebl.json",
+          "src/main/resources/assets/brftl/models/item/leather_tanning_tablebl.json",
+          "src/main/java/net/rener/brftl/block/LeatherTanningTableblBlock.java",
+          "src/main/resources/assets/brftl/models/block/leather_tanning_tablebl.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.brftl.leather_tanning_tablebl": "Leather Tanning Table"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "brftl",
+    "modName": "Better Rotten Flesh To Leather",
+    "version": "1.0.0",
+    "description": "The best (and balanced) way to get leather from rotten flesh",
+    "author": "kyleabiel1, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.rener.brftl",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

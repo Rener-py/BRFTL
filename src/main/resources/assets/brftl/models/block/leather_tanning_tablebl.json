@@ -1,0 +1,8 @@
+{
+  "parent": "brftl:custom/leather_tanning_table_v1.2",
+  "textures": {
+    "all": "brftl:blocks/leather_tanning_table_final_tx",
+    "particle": "brftl:blocks/leather_tanning_table_final_tx",
+    "4": "brftl:blocks/leather_tanning_table_final_tx"
+  }
+}

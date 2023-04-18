@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "brftl:block/leather_tanning_tablebl"
+    },
+    "facing=east": {
+      "model": "brftl:block/leather_tanning_tablebl",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "brftl:block/leather_tanning_tablebl",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "brftl:block/leather_tanning_tablebl",
+      "y": 270
+    }
+  }
+}

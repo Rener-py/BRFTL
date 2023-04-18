@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.rener.brftl.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"BrftlModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

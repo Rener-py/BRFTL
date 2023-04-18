@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "brftl",
+  "version": "1.0.0",
+  "name": "Better Rotten Flesh To Leather",
+  "description": "The best (and balanced) way to get leather from rotten flesh",
+  "authors": [
+    "kyleabiel1, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "GNU General Public License version 3 (GPLv3)",
+  "accessWidener": "brftl.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.rener.brftl.BrftlMod"
+    ],
+    "client": [
+      "net.rener.brftl.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "brftl.mixins.json"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "4": "leather_tanning_table_final_tx"
+      },
+      "name": "default"
+    }
+  }
+}
