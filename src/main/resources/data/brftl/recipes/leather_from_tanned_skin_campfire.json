@@ -1,0 +1,10 @@
+{
+  "group": "tannedskin",
+  "type": "minecraft:campfire_cooking",
+  "experience": 1,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "brftl:tannedskinobj"
+  },
+  "result": "minecraft:leather"
+}
